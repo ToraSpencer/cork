@@ -1,0 +1,45 @@
+bin/
+depend/
+include/
+lib/
+obj/
+./win/wincork/.vs/
+.vs/
+
+error_log.txt
+
+win/wincork/Debug
+win/wincork/Release
+win/wincork/*.sdf
+win/wincork/*.opensdf
+
+*.vcxproj.user
+\.vs
+
+# PreCompiled Header，就是预先编译好的头文件，在编译时指定/Yu开关时编译器自动生成
+*.pch
+*.ipch
+	
+# Program DataBase，即程序数据库文件，用来记录调试信息
+*.pdb
+
+# 用户界面的自定义配置文件
+*.suo	
+	
+# 也是用户界面的自定义配置文件
+*.vcxproj.user	
+
+
+# 编译器生成的浏览信息文件，在代码导航的时候非常有用
+*.sbr	
+
+# class diagram, 类图；	 
+*.cd	
+
+# in case you're on mac
+.DS_Store
+
+#不忽略的文件：
+!extSrc/*
+
+
