@@ -3,15 +3,15 @@ depend/
 include/
 lib/
 obj/
-./win/wincork/.vs/
-.vs/
 
 error_log.txt
 
+win/wincork/.vs
 win/wincork/Debug
 win/wincork/Release
 win/wincork/*.sdf
 win/wincork/*.opensdf
+win/wincork/data/*.obj
 
 *.vcxproj.user
 \.vs
@@ -41,5 +41,9 @@ win/wincork/*.opensdf
 
 #不忽略的文件：
 !extSrc/*
+!win/wincork/Debug/mpir.lib
+!win/wincork/Release/mpir.lib
+!win/wincork/Debug/mpir.dll
+!win/wincork/Release/mpir.dll
 
 
