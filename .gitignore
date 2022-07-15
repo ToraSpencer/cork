@@ -7,8 +7,8 @@ obj/
 error_log.txt
 
 win/wincork/.vs
-win/wincork/Debug
-win/wincork/Release
+win/wincork/Debug/*
+win/wincork/Release/*
 win/wincork/*.sdf
 win/wincork/*.opensdf
 win/wincork/data/*.obj
